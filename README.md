@@ -6,7 +6,11 @@ The system extracts prescription text using OCR, detects medicine-related entiti
 
 ## Screenshots
 <img width="1366" height="768" alt="Screenshot 2026-04-30 151001" src="https://github.com/user-attachments/assets/198740a0-81b5-4ad6-9c03-7ef379100a29" />
+
+
 <img width="1366" height="768" alt="Screenshot 2026-04-30 151856" src="https://github.com/user-attachments/assets/c24f81ca-81ff-4d7a-9778-a5a1f74ae86c" />
+
+
 <img width="1366" height="768" alt="Screenshot 2026-04-30 151942" src="https://github.com/user-attachments/assets/57b545cc-0513-42e3-aa9c-75e445b8aad2" />
 
 
