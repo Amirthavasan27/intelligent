@@ -62,7 +62,8 @@ Patient-Friendly Explanation
 Tamil Translation + Text-to-Speech
         ↓
 Frontend Result Cards
-
+```
+Folder structure
 
 saferx-explainnet
 ├── backend
