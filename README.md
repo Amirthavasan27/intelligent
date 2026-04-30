@@ -63,6 +63,7 @@ Tamil Translation + Text-to-Speech
         ↓
 Frontend Result Cards
 ```
+```text
 Folder structure
 
 saferx-explainnet
@@ -78,7 +79,7 @@ saferx-explainnet
 │
 ├── .gitignore
 └── README.md
-
+```
 Backend Setup:
 
 cd backend
