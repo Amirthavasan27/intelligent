@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #030712;
+  color: white;
+  font-family: Inter, system-ui, sans-serif;
+}
+.neon-pulse {
+  border-color: rgba(34, 211, 238, 0.45) !important;
+  animation: neonPulse 1.6s ease-in-out infinite;
+}
+
+@keyframes neonPulse {
+  0%, 100% {
+    box-shadow:
+      0 0 8px rgba(34, 211, 238, 0.45),
+      0 0 18px rgba(34, 211, 238, 0.25),
+      inset 0 0 8px rgba(34, 211, 238, 0.15);
+    transform: scale(1);
+  }
+
+  50% {
+    box-shadow:
+      0 0 18px rgba(34, 211, 238, 1),
+      0 0 36px rgba(34, 211, 238, 0.75),
+      0 0 60px rgba(168, 85, 247, 0.45),
+      inset 0 0 14px rgba(34, 211, 238, 0.35);
+    transform: scale(1.06);
+  }
+}
+
+.icon-flicker {
+  animation: iconFlicker 1.8s ease-in-out infinite;
+}
+
+@keyframes iconFlicker {
+  0%, 100% {
+    filter: drop-shadow(0 0 3px rgba(34, 211, 238, 0.55));
+    opacity: 0.85;
+  }
+
+  50% {
+    filter:
+      drop-shadow(0 0 7px rgba(34, 211, 238, 0.95))
+      drop-shadow(0 0 13px rgba(34, 211, 238, 0.55));
+    opacity: 1;
+  }
+}

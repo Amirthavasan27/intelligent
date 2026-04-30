@@ -1,0 +1,28 @@
+.border-glow-wrapper {
+  position: relative;
+  border-radius: var(--r);
+  overflow: hidden;
+}
+
+.border-glow-wrapper::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  padding: 1.5px;
+  border-radius: inherit;
+  background:
+    radial-gradient(
+      180px circle at var(--x) var(--y),
+      var(--c1),
+      var(--c2),
+      var(--c3),
+      transparent 70%
+    );
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+  pointer-events: none;
+  transition: background 0.08s linear;
+}
