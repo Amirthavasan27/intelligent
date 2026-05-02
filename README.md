@@ -4,6 +4,13 @@ SafeRx ExplainNet is an AI-powered prescription explanation system that helps us
 
 The system extracts prescription text using OCR, detects medicine-related entities using a biomedical NER model, matches medicines against a local medicine knowledge base, and presents patient-friendly information such as usage, dosage, duration, side effects, Tamil translation, and text-to-speech output.
 
+
+CONFERENCE CERTIFICATE
+
+<img width="1269" height="899" alt="cert" src="https://github.com/user-attachments/assets/a90ebec9-8576-4f6d-8767-a7ccb3c8ab2c" />
+
+
+
 ## Screenshots
 
 ### Landing Page
